@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 
 public class Car {
-    String type;
+    String type = "sedan";
     String model;
     String color;
     int speed;
@@ -13,6 +13,10 @@ public class Car {
         this.color = color;
         this.type = "Sedan";
         this.speedLimit = 180;
+
+    }
+
+    public Car() {
 
     }
 
